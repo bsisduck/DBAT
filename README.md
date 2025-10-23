@@ -18,6 +18,18 @@ Fast batch audio transcription powered by Deepgram Nova-3. Upload multiple MP3 f
 - Python 3.8 or higher
 - Deepgram API key ([Get one free](https://console.deepgram.com))
 
+### macOS Setup
+
+If you don't have Python installed on macOS:
+
+```bash
+# Using Homebrew (install if needed: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")
+brew install python3
+
+# Verify installation
+python3 --version
+```
+
 ### Installation
 
 1. Clone the repository:
@@ -29,7 +41,8 @@ cd DBAT
 2. Create virtual environment:
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # macOS/Linux: source venv/bin/activate
+                          # Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies:
