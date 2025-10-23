@@ -1,4 +1,4 @@
-# TranscribeX 🎙️
+# DBAT - Deepgram Batch Audio Transcription 🎙️
 
 Fast batch audio transcription powered by Deepgram Nova-3. Upload multiple MP3 files and get accurate transcriptions with concurrent processing.
 
@@ -22,8 +22,8 @@ Fast batch audio transcription powered by Deepgram Nova-3. Upload multiple MP3 f
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/TranscribeX.git
-cd TranscribeX
+git clone https://github.com/bsisduck/DBAT.git
+cd DBAT
 ```
 
 2. Create virtual environment:
@@ -94,7 +94,7 @@ python-dotenv==1.0.0
 ## Project Structure
 
 ```
-TranscribeX/
+DBat/
 ├── app.py                    # Main Streamlit application
 ├── transcription_service.py  # Deepgram API wrapper
 ├── batch_processor.py        # Concurrent batch processing
