@@ -30,6 +30,17 @@ brew install python3
 python3 --version
 ```
 
+### Windows Setup
+
+If you don't have Python installed on Windows:
+
+1. Download Python from [python.org](https://www.python.org/downloads/)
+2. Run the installer and **check "Add Python to PATH"** during installation
+3. Verify installation in Command Prompt or PowerShell:
+```bash
+python --version
+```
+
 ### Installation
 
 1. Clone the repository:
@@ -39,10 +50,17 @@ cd DBAT
 ```
 
 2. Create virtual environment:
+
+**macOS/Linux:**
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # macOS/Linux: source venv/bin/activate
-                          # Windows: venv\Scripts\activate
+source venv/bin/activate
+```
+
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
 3. Install dependencies:
